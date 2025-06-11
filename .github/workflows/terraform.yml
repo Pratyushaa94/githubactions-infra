@@ -1,6 +1,7 @@
 name: "Github Actions IaC"
 
 on:
+  workflow_dispatch:  #  enables manual trigger
   push:
     branches:
       - main
